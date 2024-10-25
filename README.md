@@ -2,11 +2,11 @@
 
 Lessons learnt along the way
 
-- Slice method: basically slice/cuts a part of an array
+- Slice method: basically slice/cuts a part/piece of an array
 [1, 2, 3, 4, 5] => slice(0, 2) => [1, 2]
                 => slice(-2)  => [4, 5]
 
-- Join method: converts an array into a string with a separator
+- Join method: converts an array into a string of it own characters with a separator
 [1, 2, 3] => join('') => "123"
 
 - Replace method: replace a specified substring
