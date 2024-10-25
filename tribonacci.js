@@ -8,8 +8,7 @@ const tribonacci = (signature, n) => {
 
   while (signature.length < n) {
     const lastThree = signature.slice(-3);
-    const total = lastThree.reduce((acc, val) => acc + val, 0)
-    signature.push(total)
+    signature.push(lastThree.reduce((acc, val) => acc + val, 0))
   }
 
   return signature;
