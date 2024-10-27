@@ -14,3 +14,5 @@ replace('x', 'a') => x is replaced by a
 
 - Split method: returns a string into an array of its own characters
 "chai" => ["c", "h", "a", "i"]
+
+- Spread operator: learnt about a specific use case, Math.min doesnt expect an array so the spread operator "spreads" them into individual elements that Math.min wants
