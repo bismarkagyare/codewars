@@ -16,3 +16,6 @@ replace('x', 'a') => x is replaced by a
 "chai" => ["c", "h", "a", "i"]
 
 - Spread operator: learnt about a specific use case, Math.min doesnt expect an array so the spread operator "spreads" them into individual elements that Math.min wants
+
+- every method: used to check whether all elements in an array passes a test(specified func)
+returns a boolean value depends on the outcome 
