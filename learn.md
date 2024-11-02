@@ -32,3 +32,9 @@ const filterMenuItems = (items, user) => {
     return true;
   })
 }
+
+
+for ..of.. loop
+for (char of str) {
+  // do something with each char in the str
+}
