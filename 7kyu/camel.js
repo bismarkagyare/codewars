@@ -17,4 +17,9 @@ const solution = (str) => {
 const res = solution("camelCase")
 console.log(res)
 
+// function solution(string) {
+//   return(string.replace(/([A-Z])/g, ' $1'));
+
+// }
+
 //camel C
