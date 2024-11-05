@@ -1,27 +1,28 @@
-const duplicateEncode = (str) => {
-  let result = ""
-  const countStr = {}
+// const duplicateEncode = (str) => {
+//   let result = ""
+//   const countStr = {}
 
-  for (const char of str.toLowerCase()) {
-    countStr[char] = (countStr[char] || 0) + 1
-  }
+//   for (const char of str.toLowerCase()) {
+//     countStr[char] = (countStr[char] || 0) + 1
+//   }
 
-  for (const char of str.toLowerCase()) {
-    result += countStr[char] >= 2 ? ")" : "("
-  }
+//   for (const char of str.toLowerCase()) {
+//     result += countStr[char] >= 2 ? ")" : "("
+//   }
 
-  return result;
-}
+//   return result;
+// }
+
+
+const duplicateEncode = (word) => {
+  return word
+    .toLowerCase()
+    .split("")
+    .map((cv, i, a) => {
+      return a.indexOf(cv) === a.lastIndexOf(cv) ? "(" : ")";
+    })
+    .join("");
+};
 
 const res = duplicateEncode("recede")
 console.log(res)
-
-// function duplicateEncode(word){
-//   return word
-//     .toLowerCase()
-//     .split('')
-//     .map( function (a, i, w) {
-//       return w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')'
-//     })
-//     .join('');
-// }
