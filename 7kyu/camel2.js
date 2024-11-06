@@ -11,3 +11,8 @@ const toCamelCase = (str) => {
 
 const res = toCamelCase("the_stealth_warrior");
 console.log(res);
+
+
+// function toCamelCase(str){
+//   return str.replace(/[-_](.)/g, (_, c) => c.toUpperCase());
+// }
