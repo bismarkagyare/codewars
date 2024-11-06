@@ -18,4 +18,6 @@ replace('x', 'a') => x is replaced by a
 - Spread operator: learnt about a specific use case, Math.min doesnt expect an array so the spread operator "spreads" them into individual elements that Math.min wants
 
 - every method: used to check whether all elements in an array passes a test(specified func)
-returns a boolean value depends on the outcome 
+returns a boolean value depends on the outcome
+
+- charAt(index): get a specific char using the index. 
