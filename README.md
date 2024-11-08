@@ -21,3 +21,5 @@ replace('x', 'a') => x is replaced by a
 returns a boolean value depends on the outcome
 
 - charAt(index): get a specific char using the index. 
+
+- new Map(): create key-value pair. methods like .set, .get, .has etc
