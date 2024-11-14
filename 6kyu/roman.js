@@ -9,4 +9,4 @@ const RomanNumerals = {
 }
 
 
-console.log(RomanNumerals.toRoman(5))
+console.log(RomanNumerals.toRoman(4))
