@@ -23,3 +23,7 @@ returns a boolean value depends on the outcome
 - charAt(index): get a specific char using the index. 
 
 - new Map(): create key-value pair. methods like .set, .get, .has etc
+
+- object.entries (): returns an array of key-value pairs. useful for creating a map from an object
+
+- startsWith: checks if a string starts with a specified substring
