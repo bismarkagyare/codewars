@@ -18,5 +18,5 @@ function permutations(str) {
   return Array.from(result)
 }
 
-const res = permutations("abc")
+const res = permutations("aabb")
 console.log(res)
