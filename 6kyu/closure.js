@@ -5,4 +5,4 @@ function outer(a) {
 }
 
 const res = outer(5)
-console.log(res.toString())
+console.log(res(4))
