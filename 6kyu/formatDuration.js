@@ -31,5 +31,5 @@ function convertDuration(seconds) {
 
 }
 
-const res = convertDuration(34661234567);
+const res = convertDuration(3461234567);
 console.log(res);
